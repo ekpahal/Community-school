@@ -19,7 +19,7 @@
     function init() {
         window.addEventListener('scroll', function(e){
             var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-                shrinkOn = 300,
+                shrinkOn = 100,
                 header = document.querySelector("header");
             if (distanceY > shrinkOn) {
                 classie.add(header,"smaller");
@@ -59,9 +59,9 @@
           <span id="menu" class="sliding-middle-out">About Us</span>
           <div class="dropdown-content" style="color: black;line-height: 20px;">
               <table id="tab">
-                <tr><td><a style="line-height: 20px;" id="lk" href="../our-story">Our Story</a></td></tr>
-                <tr><td><a style="line-height: 20px;" id="lk" href="../vision">Vision,Mission & Motto</a></td></tr>
-                <tr><td><a style="line-height: 20px;" id="lk" href="../team">Team</a></td></tr>
+                <tr><td><a style="line-height: 20px;" id="lk" href="../about-us/#our-story">Our Story</a></td></tr>
+                <tr><td><a style="line-height: 20px;" id="lk" href="../about-us/#vision">Vision,Mission & Motto</a></td></tr>
+                <tr><td><a style="line-height: 20px;" id="lk" href="../about-us/#team">Team</a></td></tr>
               </table>
             </div>
         </div>
